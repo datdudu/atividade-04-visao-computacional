@@ -22,7 +22,7 @@ Este projeto implementa um sistema de classificação de espécies de plantas a 
 .
 ├── Leaves/                    # Pasta com imagens do dataset (não versionada)
 ├── fase1.py                   # Código principal com todas as fases
-├── notebook.ipynb             # Notebook Jupyter com análise completa
+├── trabalho.ipynb             # Notebook Jupyter com análise completa
 ├── relatorio.pdf              # Relatório técnico do projeto
 ├── requirements.txt           # Dependências do projeto
 ├── .gitignore                 # Arquivos ignorados pelo Git
@@ -31,7 +31,7 @@ Este projeto implementa um sistema de classificação de espécies de plantas a 
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Python 3.8+**
+* **Python 3.8-3.11**
 
 * **OpenCV** - Processamento de imagens e segmentação
 
@@ -57,7 +57,7 @@ cd <nome-do-repositorio>
 ### 2\. Crie um ambiente virtual (recomendado)
 
 ```bash
-python -m venv venv
+python <versão desejada> -m venv venv
 ```
 
 ### 3\. Ative o ambiente virtual
@@ -91,7 +91,7 @@ python fase1.py
 ### Executar o notebook Jupyter
 
 ```bash
-jupyter notebook notebook.ipynb
+jupyter notebook trabalho.ipynb
 ```
 
 ## 📊 Pipeline do Projeto
